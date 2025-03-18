@@ -5,15 +5,20 @@ body {
 }
 
 .main-image{
+
     margin-top: 45px;
     margin-left: 250px;
+
 }
 .main{
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 .main-card-login{
+    
     height: 100%;
 }
 .login-card{
@@ -59,6 +64,7 @@ input[type="password"]{
     border-radius: 5px;
     border: 0px;
     text-align: center;
+    cursor: pointer;
     font-size: 14px;
     padding: 0.5em;
     width: 95%;
