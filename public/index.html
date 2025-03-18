@@ -4,7 +4,11 @@
     <title>Instagram</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../src/styles/main.css" />
-    <link rel="icon" type="image/png" href="images/instagram.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../assets/img/Instagram_icon.png.webp"
+    />
     <link
       rel="stylesheet"
       href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&lang=en"
@@ -23,11 +27,8 @@
       <div class="main-card-login">
         <div class="login-card">
           <div class="login-card-header-image">
-            <img
-              src="https://i.ibb.co/chYt9nx/instagram-header.png"
-              height="70"
-              width="180"
-            />
+            <div style="background-image: url(&quot;https://static.cdninstagram.com/rsrc.php/v4/yO/r/81fXxo65t4C.png&quot;); background-position: 0px -52px; background-size: 176px 492px; width: 175px; height: 51px; background-repeat: no-repeat; display: inline-block;"></div>
+
           </div>
 
           <div class="login-card-form">
@@ -36,7 +37,8 @@
               placeholder="Numéro de téléphone, nom d'utilisateur ou..."
             />
             <input type="password" placeholder="Mot de passe" />
-            <button class="login-form-button">Connexion</button>
+            <button class="login-form-button">Se connecter</button>
+            <p id="message-erreur" class="message-erreur">Votre mot de passe est incorrect. Veuillez le vérifier.</p>
             <div class="login-or">
               <hr class="login-or-first-separation" />
               OU
@@ -52,6 +54,9 @@
 
             <div class="forgot-password">
               <p>Mot de passe oublié ?</p>
+            </div>
+            <div class="contenu-illegal">
+              <p>Vous pouvez également signaler le contenu que vous pensez illégal dans votre pays sans vous connecter</p>
             </div>
           </div>
         </div>
