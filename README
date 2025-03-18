@@ -1,0 +1,7 @@
+# mettre le serveur en route
+
+```bash
+node server.js
+```
+
+# lancer le client
